@@ -22,13 +22,13 @@ pub fn[T] Matrix::from_iter(size : Vec2, iter : Iter[T]) -> Self[T] {
 ///|
 pub fn[T : Default] Matrix::from_pattern(
   size : Vec2,
-  cell : T,
+  value : T,
   pattern : FixedArray[FixedArray[Int]],
 ) -> Self[T] {
   let matrix = Matrix::empty(size)
   for pos in size.iter() {
     if pattern[pos.y][pos.x] != 0 {
-      matrix.set_mut(pos, cell)
+      matrix.set_mut(pos, value)
     }
   }
   matrix
