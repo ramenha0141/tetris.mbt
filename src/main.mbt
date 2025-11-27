@@ -1,5 +1,5 @@
 ///|
-const CELL_SIZE = 42.0
+const CELL_SIZE = 39.0
 
 ///|
 const TICK_RATE = 60

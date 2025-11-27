@@ -7,7 +7,16 @@
     <link rel="stylesheet" href="./styles.css">
   </head>
   <body>
-    <canvas id="canvas" width="946" height="946"></canvas>
+    <div class='flex gap-8'>
+      <canvas id="canvas" width="880" height="880"></canvas>
+      <div class='text-4xl'>
+        <p>Move: ↑↓←→</p>
+        <p>Rotate: Z/X</p>
+        <p>Hold: Shift</p>
+        <p>Drop: Space</p>
+        <p>Restart: Cmd + R</p>
+      </div>
+    </div>
     <script type="module" src="./target/js/release/build/tetris.js"></script>
   </body>
 </html>
