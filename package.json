@@ -1,9 +1,13 @@
 {
   "name": "@ramenha0141/tetris.mbt",
   "scripts": {
-    "dev": "rm -r target && moon build && vite dev"
+    "dev": "moon clean && moon build && vite dev"
+  },
+  "dependencies": {
+    "tailwindcss": "^4.1.17"
   },
   "devDependencies": {
+    "@tailwindcss/vite": "^4.1.17",
     "vite": "^7.2.4"
   }
 }
