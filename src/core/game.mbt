@@ -1,5 +1,5 @@
 ///|
-const NEXT_MINOS = 4
+const NEXT_MINOS = 5
 
 ///|
 const FALL_RATE = 50
