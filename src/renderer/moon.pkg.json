@@ -1,0 +1,15 @@
+{
+  "import": [
+    "mizchi/js/browser/dom",
+    "mizchi/js/browser/canvas",
+    {
+      "path": "ramenha0141/tetris/core",
+      "alias": "core"
+    },
+    {
+      "path": "ramenha0141/tetris/core/types",
+      "alias": "types"
+    },
+    "ramenha0141/tetris/core/mino"
+  ]
+}

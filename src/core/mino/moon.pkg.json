@@ -1,0 +1,8 @@
+{
+  "import": [
+    {
+      "path": "ramenha0141/tetris/core/types",
+      "alias": "types"
+    }
+  ]
+}

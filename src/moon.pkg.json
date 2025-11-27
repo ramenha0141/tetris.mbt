@@ -1,0 +1,21 @@
+{
+  "is-main": true,
+  "import": [
+    "moonbitlang/async",
+    "mizchi/js",
+    "mizchi/js/browser/dom",
+    "mizchi/js/browser/canvas",
+    {
+      "path": "ramenha0141/tetris/core",
+      "alias": "core"
+    },
+    {
+      "path": "ramenha0141/tetris/controller",
+      "alias": "controller"
+    },
+    {
+      "path": "ramenha0141/tetris/renderer",
+      "alias": "renderer"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "@ramenha0141/tetris.mbt",
+  "scripts": {
+    "dev": "rm -r target && moon build && vite dev"
+  },
+  "devDependencies": {
+    "vite": "^7.2.4"
+  }
+}
