@@ -1,5 +1,5 @@
 ///|
-let rng : @random.Rand = @random.Rand::chacha8(seed = b"MOONBIT ADVENT CALENDAR_2025_RNG")
+let rng : @random.Rand = @random.Rand::chacha8(seed = b"MOONBIT ADVENT CALENDAR 2025 RNG")
 
 ///|
 fn rand(limit : Int) -> Int {
