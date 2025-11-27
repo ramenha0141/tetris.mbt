@@ -1,7 +1,7 @@
 {
   "name": "ramenha0141/tetris",
   "deps": {
-    "mizchi/js": "0.5.1",
+    "mizchi/js": "0.5.6",
     "moonbitlang/async": "0.14.0"
   },
   "source": "src",
